@@ -1,0 +1,39 @@
+.item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+.image {
+    flex: 0 0 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor sin distorsión */
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.content {
+    flex: 1;
+}
+
+.content h2 {
+    font-size: 1.2em;
+    margin: 0 0 5px 0;
+}
+
+.content p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.content strong {
+    display: block;
+    margin-top: 5px;
+    color: #007bff;
+}
